@@ -1,0 +1,172 @@
+body {
+	background: #f1842c;
+	background-image: url("../img/paint-splatter-orange.jpg");
+	background-repeat: repeat;
+}
+
+.container p{
+	color: #fff;
+	text-align: left;
+	word-spacing: 1px;
+}
+
+.main {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+a:link {
+	color: #383838;
+    text-decoration:none;
+}
+
+a:visited {
+	color: #383838;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+    color: #BA5919;
+}
+
+a:active {
+    text-decoration:underline;
+}
+
+img.icon {
+	width: 114px;
+	height: 114px;
+	float: right;
+	margin-left: 20px;
+}
+
+img.appstore {
+	height: 86px;
+	width: 320px;
+	padding: 10px;
+}
+
+img.lineup {
+	width: 470px;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+	color: #ffffff;
+	padding: 0px;
+	text-align: center;
+	font-family: 'brush_strokefastregular';
+}
+
+h2 {
+	color: #ffffff;
+ 	font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: normal;
+}
+
+hr {
+	border-top: 1px #ccc;
+}
+
+.xlarge-btn img {
+	margin-top: -20px;
+}
+
+.xlarge-btn span {
+	text-indent: -9999px;
+	display:block;
+}
+
+#footer {
+	max-width: 900px;
+	margin-top: 0px;
+}
+
+#myCarousel {
+	width: 244px;
+	height: 624px;
+	padding-right: 60px;
+	margin-top: 35px;
+}
+
+.carousel {
+	background: url("../img/iphone.png") no-repeat;
+	padding-left: 35px;
+}
+
+.item {
+	padding-top: 99px;
+	width: 244px;
+	height: 433px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+	h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	h2 {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	
+	.iphone {
+		padding-right: 20px;
+	}
+
+	img.appstore {
+		width: 240px;
+		height: auto;
+	}
+
+	img.lineup {
+		width: 380px;
+		height: auto;
+	}
+
+	body {
+		background-size: 950px 600px;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	h2 {
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	img.lineup {
+		width: 320px;
+		height: auto;
+	}
+
+	body {
+		background-size: 950px 600px;
+	}
+
+	.main {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	img.appstore {
+		width: 220px;
+		height: auto;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
