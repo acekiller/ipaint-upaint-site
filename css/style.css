@@ -15,13 +15,21 @@ body {
 	margin-bottom: 20px;
 }
 
+.center { 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    text-align: center;
+}
+
 a:link {
-	color: #383838;
+	color: #ffffff;
     text-decoration:none;
 }
 
 a:visited {
-	color: #383838;
+	color: #ffffff;
     text-decoration:none;
 }
 
@@ -34,17 +42,24 @@ a:active {
     text-decoration:underline;
 }
 
-img.icon {
+#icon {
 	width: 114px;
 	height: 114px;
 	float: right;
 	margin-left: 20px;
 }
 
-img.appstore {
-	height: 86px;
-	width: 320px;
-	padding: 10px;
+#appstore {
+    height: 86px;
+    width: 320px;
+    padding: 10px 10px 10px 5px;
+}
+
+#hb {
+    width: 25px;
+    height: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img.lineup {
@@ -65,23 +80,21 @@ h1 {
 
 h2 {
 	color: #ffffff;
- 	font-size: 20px;
-    line-height: 32px;
+ 	font-size: 19px;
+    line-height: 30px;
     text-align: center;
     font-weight: normal;
 }
 
+small {
+	font-size: 11px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 hr {
 	border-top: 1px #ccc;
-}
-
-.xlarge-btn img {
-	margin-top: -20px;
-}
-
-.xlarge-btn span {
-	text-indent: -9999px;
-	display:block;
 }
 
 #footer {
@@ -122,10 +135,10 @@ hr {
 		padding-right: 20px;
 	}
 
-	img.appstore {
-		width: 240px;
-		height: auto;
-	}
+	 #appstore {
+        width: 240px;
+        height: auto;
+    }
 
 	img.lineup {
 		width: 380px;
@@ -163,7 +176,7 @@ hr {
 }
 
 @media (max-width: 320px) {
-	img.appstore {
+	#appstore {
 		width: 220px;
 		height: auto;
 		padding-left: 5px;
