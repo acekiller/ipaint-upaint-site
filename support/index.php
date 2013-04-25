@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="container" id="main">
-			<div class="row center" id="contact">
+			<div class="row center" id="support">
 				<div class="span7 offset2">
 					<h1 class="text-left">Support <small> <a href="/">iPaint uPaint</a></small></h1>
 					<h3 class="text-left">Email <small> <a href="mailto:support@hexedbits.com">support [at] hexedbits [dot] com</a></small></h3>

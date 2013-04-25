@@ -159,10 +159,24 @@ hr {
 		font-size: 40px;
 		line-height: 40px;
 	}
+
+	#support h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	#support h1 small {
+		font-size: 20px;
+		line-height: 20px;
+	}
 	
 	h2 {
 		font-size: 15px;
 		line-height: 15px;
+	}
+
+	h3 {
+		font-size: 16px;
 	}
 
 	img.lineup {
@@ -174,7 +188,7 @@ hr {
 		background-size: 950px 600px;
 	}
 
-	.main {
+	#main {
 		margin-top: 20px;
 	}
 }
