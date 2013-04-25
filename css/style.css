@@ -1,18 +1,7 @@
 body {
 	background: #f1842c;
-	background-image: url("../img/paint-splatter-orange.jpg");
+	background-image: url("/img/paint-splatter-orange.jpg");
 	background-repeat: repeat;
-}
-
-.container p{
-	color: #fff;
-	text-align: left;
-	word-spacing: 1px;
-}
-
-.main {
-	margin-top: 50px;
-	margin-bottom: 20px;
 }
 
 .center { 
@@ -21,6 +10,49 @@ body {
     margin-right: auto; 
     display: block;
     text-align: center;
+}
+
+.container p {
+	color: #fff;
+	text-align: left;
+	word-spacing: 1px;
+}
+
+#main {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#footer {
+	max-width: 900px;
+	margin-top: 0px;
+}
+
+#myCarousel {
+	width: 244px;
+	height: 624px;
+	padding-right: 60px;
+	margin-top: 35px;
+}
+
+#icon {
+	width: 114px;
+	height: 114px;
+	float: right;
+	margin-left: 20px;
+}
+
+#appstore {
+    height: 86px;
+    width: 320px;
+    padding: 10px 10px 10px 5px;
+}
+
+#hb {
+    width: 20px;
+    height: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a:link {
@@ -40,26 +72,6 @@ a:hover {
 
 a:active {
     text-decoration:underline;
-}
-
-#icon {
-	width: 114px;
-	height: 114px;
-	float: right;
-	margin-left: 20px;
-}
-
-#appstore {
-    height: 86px;
-    width: 320px;
-    padding: 10px 10px 10px 5px;
-}
-
-#hb {
-    width: 25px;
-    height: 28px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 img.lineup {
@@ -86,6 +98,10 @@ h2 {
     font-weight: normal;
 }
 
+h3 {
+	font-size: 24px;
+}
+
 small {
 	font-size: 11px;
     color: #ffffff;
@@ -97,20 +113,8 @@ hr {
 	border-top: 1px #ccc;
 }
 
-#footer {
-	max-width: 900px;
-	margin-top: 0px;
-}
-
-#myCarousel {
-	width: 244px;
-	height: 624px;
-	padding-right: 60px;
-	margin-top: 35px;
-}
-
 .carousel {
-	background: url("../img/iphone.png") no-repeat;
+	background: url("/img/iphone.png") no-repeat;
 	padding-left: 35px;
 }
 
