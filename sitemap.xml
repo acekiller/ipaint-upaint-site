@@ -8,7 +8,10 @@
 
 <url>
   <loc>http://www.ipaintupaintapp.com/</loc>
-  <lastmod>2013-01-05T20:53:03+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.ipaintupaintapp.com/support/</loc>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
