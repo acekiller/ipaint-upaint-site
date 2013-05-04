@@ -13,9 +13,8 @@ body {
 }
 
 .container p {
-	color: #fff;
+	color: #ffebd9;
 	text-align: left;
-	word-spacing: 1px;
 }
 
 #main {
@@ -56,22 +55,26 @@ body {
 }
 
 a:link {
-	color: #ffffff;
+	color: #8c4312;
     text-decoration:none;
 }
 
 a:visited {
-	color: #ffffff;
+	color: #8c4312;
     text-decoration:none;
 }
 
 a:hover {
     text-decoration:underline;
-    color: #8c4312;
+    color: #73370f;
 }
 
 a:active {
     text-decoration:underline;
+}
+
+#footer a:link, #footer a:visited {
+	color: #ffebd9;
 }
 
 img.lineup {
@@ -84,14 +87,14 @@ img.lineup {
 h1 {
     font-size: 50px;
     line-height: 50px;
-	color: #ffffff;
+	color: #ffebd9;
 	padding: 0px;
 	text-align: center;
 	font-family: 'brush_strokefastregular';
 }
 
 h2 {
-	color: #592d00;
+	color: #663300;
  	font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -100,24 +103,24 @@ h2 {
 
 h3 {
 	font-size: 34px;
-	color: #592d00;
+	color: #ffebd9;
 }
 
 h4 {
 	font-size: 22px;
 	line-height: 28px;
-	color: #592d00;
+	color: #663300;
 }
 
 small {
 	font-size: 11px;
-    color: #ffffff;
-    letter-spacing: 1px;
+    color: #ffebd9;
     text-align: center;
 }
 
 hr {
-	border-top: 1px #ccc;
+	border-top: 1px;
+	border-color: #ffebd9;
 }
 
 .carousel {
