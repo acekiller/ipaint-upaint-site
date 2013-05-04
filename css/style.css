@@ -67,7 +67,7 @@ a:visited {
 
 a:hover {
     text-decoration:underline;
-    color: #BA5919;
+    color: #8c4312;
 }
 
 a:active {
@@ -91,15 +91,22 @@ h1 {
 }
 
 h2 {
-	color: #ffffff;
- 	font-size: 19px;
-    line-height: 30px;
+	color: #592d00;
+ 	font-size: 18px;
+    line-height: 26px;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 34px;
+	color: #592d00;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 28px;
+	color: #592d00;
 }
 
 small {
@@ -159,23 +166,13 @@ hr {
 		font-size: 40px;
 		line-height: 40px;
 	}
-
-	#support h1 {
-		font-size: 30px;
-		line-height: 30px;
-	}
-
-	#support h1 small {
-		font-size: 20px;
-		line-height: 20px;
-	}
 	
 	h2 {
 		font-size: 15px;
 		line-height: 15px;
 	}
 
-	h3 {
+	h4 {
 		font-size: 16px;
 	}
 
